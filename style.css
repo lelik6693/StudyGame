@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    src: local('StratosSkyeng'),
+         /* Если не получилось, загрузит woff2 */
+         url("./fonts/Webfonts/stratosskyengweb-semilight.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("./fonts/Webfonts/stratosskyengweb-semilight.woff") format("woff");
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'StratosSkyeng';
+}
+.level {
+    width: 480px;
+    height: 459px;
+    background-color: #C2F5FF;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.level_text {
+    width: 208px;
+    height: 96px;
+    margin-left: 136px;
+    margin-top: 52px;
+   
+    color: #004980;
+}
+.level_text_title {
+     font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.level_number{
+    margin-top: 48px;
+    margin-left: 70px;
+    display: flex;
+    gap: 24px;
+}
+.level_number-block {
+    width: 97px;
+    height: 98px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.level_number-text {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: #0080C1;
+    display: flex;
+    align-items: center;
+}
+
+.level_button-start {
+    width: 246px;
+    height: 50px;
+    border-radius: 12px;
+    background: #7AC100;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border: transparent;
+}
+.level_button {
+    margin-left: 117px;
+    margin-top: 67px;
+}
